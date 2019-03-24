@@ -1,0 +1,24 @@
+{
+    "name": "Hungvt/Master",
+    "description": "Hungvt Tech5s Master",
+    "type": "php",
+    "keywords": ["laravel", "tech5s", "master", "system"],
+    "authors": [
+        {
+            "name": "VTH",
+            "email": "hungvt1804@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=7.1.2",
+        "illuminate/routing": "~5.1",
+        "rcrowe/twigbridge":"0.9.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hungvt\\Master\\": "src/"
+        }
+    }
+}
